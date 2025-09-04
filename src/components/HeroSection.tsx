@@ -55,8 +55,7 @@ export const HeroSection: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed"
           >
-            Specializing in iOS app development, fullstack-web development, and AI-driven solutions. 
-            Creating innovative applications that combine cutting-edge technology with exceptional user experiences.
+            I’m a passionate Full-Stack Web Developer, iOS App Developer, and Graphic/UI-UX Designer with a focus on creating impactful digital experiences. From designing intuitive user interfaces to building scalable apps and websites, I bring creativity and code together to solve real-world problems
           </motion.p>
           
           <motion.div
