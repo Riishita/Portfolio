@@ -254,22 +254,38 @@ export const ContactSection: React.FC = () => {
 
             {/* Social Links */}
             <div>
-              <h4 className="font-semibold text-foreground mb-4">Follow Me</h4>
-              <div className="flex space-x-4">
-                {['💼', '🐦', '📷', '🎨'].map((icon, index) => (
-                  <motion.button
-                    key={index}
-                    initial={{ opacity: 0, scale: 0 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.3, delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                    whileHover={{ scale: 1.2, y: -5 }}
-                    className="w-12 h-12 bg-card border border-border rounded-full flex items-center justify-center text-xl hover:border-primary hover:glow-primary transition-all duration-300"
-                  >
-                    {icon}
-                  </motion.button>
-                ))}
-              </div>
+              <p className="text-foreground">
+                <span className="font-semibold">Follow me:</span>{' '}
+                <a
+                  href="https://www.linkedin.com//in/rishita-kumari-03970835a"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                  aria-label="LinkedIn profile"
+                >
+                  LinkedIn
+                </a>
+                <span className="mx-2 text-muted-foreground">•</span>
+                <a
+                  href="https://www.instagram.com/rishana._.1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                  aria-label="Instagram profile"
+                >
+                  Instagram
+                </a>
+                <span className="mx-2 text-muted-foreground">•</span>
+                <a
+                  href="https://www.behance.net/your-behance-username"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                  aria-label="Behance profile"
+                >
+                  Behance
+                </a>
+              </p>
             </div>
           </motion.div>
         </div>
