@@ -44,7 +44,7 @@
     
     /* Custom Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
-    --gradient-hero: linear-gradient(135deg, hsl(267, 32%, 12%), hsl(250, 34%, 14%));
+    --gradient-hero: linear-gradient(135deg, hsl(260, 17%, 7%), hsl(250, 43%, 8%));
     --gradient-mesh: radial-gradient(circle at 25% 25%, hsla(100, 10%, 94%, 0.1)),
                      radial-gradient(circle at 75% 75%, hsla(354, 83%, 32%, 0.1), );
     

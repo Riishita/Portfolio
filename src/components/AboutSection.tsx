@@ -24,15 +24,13 @@ export const AboutSection: React.FC = () => {
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm Rishita Kumari, a passionate B.Tech Computer Science (AI & ML) student specializing in 
-              iOS app development, fullstack-web development, and UI/UX design. With a strong foundation 
-              in modern technologies, I create responsive, user-focused applications that solve real-world problems.
+              I’m a passionate Full-Stack Web Developer, iOS App Developer, and Graphic/UI-UX Designer with a focus on creating impactful digital experiences.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My expertise spans from building AI-driven solutions with CoreML integration to crafting 
-              beautiful user interfaces. I believe in translating complex technical challenges into 
-              functional, scalable, and efficient software products that make a difference.
+            During my internship at Infosys, I worked on a Hospital Management System, contributing to three different apps (for patients, doctors, and administrators). 
+            This experience gave me hands-on exposure to end-to-end app development, UI/UX design, and cross-functional teamwork in an Agile environment.
+
             </p>
 
             <div className="space-y-4">

@@ -12,7 +12,7 @@ const skills = [
   {
     category: 'Web Development',
     icon: '🌐',
-    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'Firebase', 'MERN stack'],
     color: 'from-accent to-primary'
   },
   {
@@ -24,13 +24,13 @@ const skills = [
   {
     category: 'Databases & Cloud',
     icon: '☁️',
-    skills: ['MySQL', 'MongoDB', 'Firebase', 'Firestore', 'AWS'],
+    skills: ['MySQL', 'MongoDB', 'Firebase', 'Firestore'],
     color: 'from-secondary to-accent'
   },
   {
     category: 'Tools & Platforms',
     icon: '🛠️',
-    skills: ['Xcode', 'VS Code', 'Git/GitHub', 'Jira', 'Figma'],
+    skills: ['Xcode', 'VS Code', 'Git/GitHub', 'Jira', 'canva & Figma'],
     color: 'from-accent to-primary'
   },
   {
