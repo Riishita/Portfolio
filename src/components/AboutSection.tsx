@@ -69,12 +69,16 @@ export const AboutSection: React.FC = () => {
               </Button>
               </a>
               <Button 
-                variant="outline" 
-                size="lg"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-              >
-                Let's Talk
-              </Button>
+              variant="outline" 
+              size="lg"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              onClick={() => {
+                document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Let's Talk
+            </Button>
+
             </div>
           </motion.div>
 
