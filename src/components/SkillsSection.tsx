@@ -110,7 +110,7 @@ export const SkillsSection: React.FC = () => {
         >
           {[
             { number: '8.41', label: 'CGPA' },
-            { number: '0', label: 'Years Experience' },
+            { number: '0-1', label: 'Years Experience' },
             { number: '92%', label: 'ML Model Accuracy' },
             { number: '95%', label: 'Project Success Rate' }
           ].map((stat, index) => (

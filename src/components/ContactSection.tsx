@@ -7,6 +7,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { Linkedin, Instagram } from "lucide-react";
 import { FaBehance } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 export const ContactSection: React.FC = () => {
   const { toast } = useToast();
@@ -226,14 +228,15 @@ export const ContactSection: React.FC = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://www.instagram.com/rishana._.1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition transform hover:scale-110"
-                aria-label="Instagram profile"
-              >
-                <Instagram size={20} />
-              </a>
+  href="https://github.com/Riishita" // replace with your GitHub profile
+  target="_blank"
+  rel="noopener noreferrer"
+  className="p-2 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition transform hover:scale-110"
+  aria-label="GitHub profile"
+>
+  <FaGithub size={20} />
+</a>
+
               <a
                 href="https://www.behance.net/your-behance-username"
                 target="_blank"
@@ -243,6 +246,7 @@ export const ContactSection: React.FC = () => {
               >
                 <FaBehance size={20} />
               </a>
+            
             </div>
           </motion.div>
         </div>

@@ -94,15 +94,26 @@ export const AboutSection: React.FC = () => {
     <CardContent className="space-y-6 p-0">
       {/* Profile Image Placeholder */}
       <div className="relative flex justify-center">
-        <div className="w-40 sm:w-52 md:w-64 aspect-square mx-auto bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center border-4 border-primary/30">
-          <div className="text-5xl sm:text-6xl">👩‍💻</div>
-        </div>
-        <div className="absolute -top-2 sm:-top-3 -right-2 sm:-right-3 w-12 sm:w-16 h-12 sm:h-16 bg-primary rounded-full flex items-center justify-center glow-primary">
-          <span className="text-primary-foreground font-bold text-xs sm:text-sm">
-            8.41
-          </span>
-        </div>
-      </div>
+  <div className="w-40 sm:w-52 md:w-64 aspect-square mx-auto bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center border-4 border-primary/30 overflow-hidden">
+    {/* Replace 👩‍💻 with your photo */}
+    <img
+      src="/ProfilePhoto.png" // put your photo path here (public folder or URL)
+      alt="My Profile"
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <div className="absolute -top-2 sm:-top-3 -right-2 sm:-right-3 w-12 sm:w-16 h-12 sm:h-16 bg-primary rounded-full flex items-center justify-center glow-primary">
+    <span className="text-primary-foreground font-bold text-xs sm:text-sm">
+      8.41
+    </span>
+  
+  </div>
+  <div className="absolute -top-2 sm:-top-3 -right-2 sm:-right-3 w-12 sm:w-16 h-12 sm:h-16 bg-primary rounded-full flex items-center justify-center glow-primary">
+    <span className="text-primary-foreground font-bold text-xs sm:text-sm">
+      8.41
+    </span>
+  </div>
+</div>
 
       {/* Details */}
       <div className="text-center space-y-4">
@@ -116,7 +127,7 @@ export const AboutSection: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
           {[
             { icon: "📧", label: "Email", value: "rishitakumari206@gmail.com" },
-            { icon: "📍", label: "Location", value: "Greater Noida, India" },
+            { icon: "📍", label: "Location", value: "Noida, India" },
             { icon: "💼", label: "Status", value: "Available for opportunities" },
           ].map((info, index) => (
             <motion.div
